@@ -6,7 +6,7 @@ s = socket.socket()
 
 port = 8080
 
-s.connect(('192.168.43.81', port))
+s.connect(('192.168.0.191', port))
 
 data = s.recv(1024)
 data = data.decode("utf-8")
